@@ -1,0 +1,25 @@
+.collection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.morecoll {
+  position: absolute;
+  color: white;
+  margin-top: 12rem;
+  padding-left: 10px;
+}
+.mainheadcoll {
+  font-size: 20px;
+  font-weight: 500;
+}
+.collection img {
+  width: 260px;
+  height: 290px;
+  border-radius: 5px;
+}
+.mainCollection {
+  width: 80vw;
+  margin: 2rem auto;
+  margin-left: 215px;
+}

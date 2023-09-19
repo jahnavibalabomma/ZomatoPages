@@ -1,0 +1,48 @@
+.footermatter li a {
+  text-decoration: none;
+  color: gray;
+}
+.footermatter {
+  display: flex;
+  gap: 35px;
+}
+.mainFooter {
+  width: 70vw;
+  margin: 2rem auto;
+  margin-left: 215px;
+}
+.footerpage {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 10px 0px;
+}
+.footermatter img {
+  width: 150px;
+}
+.footermatter li {
+  padding: 5px;
+}
+.topFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topFooter div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footbox {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 20px;
+  padding: 10px;
+  font-size: large;
+}
+
+.socialIcon {
+  border-radius: 50%;
+  color: black;
+  margin-bottom: 1rem;
+}

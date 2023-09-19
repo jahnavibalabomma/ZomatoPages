@@ -1,0 +1,44 @@
+.Collapsible {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  justify-content: space-evenly;
+  border: 1px solid rgb(177, 172, 172);
+  border-radius: 5px;
+  padding: 20px;
+}
+/* .Collapsible__trigger:hover {
+  background-color: #1446a0;
+  color: white;
+} */
+.Collapsible__outercontent {
+  border: 2px solid gray;
+}
+.options {
+  width: 72vw;
+  margin: 4rem auto;
+  margin-left: 215px;
+}
+.firstoption a,
+.secondoption a {
+  text-decoration: none;
+  color: gray;
+}
+.firstoption,
+.secondoption {
+  padding-top: 30px;
+}
+.thirdoption a,
+.fourthoption a {
+  text-decoration: none;
+  color: gray;
+}
+.thirdoption,
+.fourthoption {
+  padding-top: 10px;
+  display: flex;
+  gap: 50px;
+}
+.fourthoption li {
+  padding: 10px 0px;
+}
